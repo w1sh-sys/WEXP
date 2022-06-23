@@ -112,7 +112,7 @@ namespace ChooseSide
                 uplayer.Experience += exp_amount;
 
                 UnturnedChat.Say(uplayer.CSteamID, $"Вам было зачислено {exp_amount} опыта!", UnityEngine.Color.green);
-                Rocket.Core.Logging.Logger.Log($"{uplayer.SteamName} ({uplayer.CSteamID}) начислил себе {exp_amount} опыта.");
+                Rocket.Core.Logging.Logger.Log($"{uplayer.SteamName}[{uplayer.CSteamID}] начислил себе {exp_amount} опыта.");
 
             }
 
